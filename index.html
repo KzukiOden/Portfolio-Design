@@ -52,7 +52,7 @@
         border: 0;
         background: #9c97f1;
         height: 1.2px;
-        margin: 40px 84px;  
+        margin: 40px 84px;
     }
 
     .left {
@@ -87,10 +87,51 @@
         color: rgb(170, 107, 228);
     }
 
-    .SeconsSection{
+    .SecondSection {
         max-width: 80vw;
         margin: auto;
+        height: 80vh;
     }
+    .SecondSection h1{
+        font-size: 2rem;
+    }
+    .SecondSection .box{
+        background: white;
+        width: 76vw;
+        height: 2px;
+        margin: 150px 0;
+        display: flex;
+    }
+    .SecondSection .vertical{
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+        margin: auto;
+    }
+    .Text-Gray{
+        color: gray;
+    }
+    .image-top{
+        width: 90px;
+        position: relative;
+        top: -100px;
+        left: -1px;
+    }
+    .vertical-title{
+        position: relative;
+        top: -5px;
+        width: 150px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: -4px;
+        width: 150px;
+        color: gray;
+        font-size: 9.5px;
+    }
+
+
 </style>
 </head>
 
@@ -120,15 +161,67 @@
                 <img src="image.png" alt="">
             </div>
         </section>
-<hr>
-        <section class="SeconsSection">
-            <h1>Past Experience</h1>
+        <hr>
+        <section class="SecondSection">
+            <span class="Text-Gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="icons8-flutter-48.png" alt="">
+                    <div class="vertical-title">
+                        Flutter Developer (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Started working with Flutter in 2024 and have been working on various projects & University FYP.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="icons8-html-logo-48.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Worked on various practice projects specially Front-End & trying to develop skills in it.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons8-dart-48.png" alt="">
+                    <div class="vertical-title">
+                        DART Developer (2024-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Learned Dart language because I'm working in Flutter and making Future in it.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons8-c++-48.png" alt="">
+                    <div class="vertical-title">
+                        C++ Developer (2022-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Currently building logic in C++ and solving real world problems. 
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="icons8-c-sharp-logo-64.png" alt="">
+                    <div class="vertical-title">
+                        C# Developer (2023-Present)
+                    </div>
+                    <div class="vertical-desc">
+                        When I was working on Unity back in early 2023 it required C# to make the game physics worked 
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['App Developer', 'Web Developer', 'Video Editior'],
+            strings: ['App Developer', 'Front-End Developer', 'C++ Developer', 'C# Developer', 'App Designer', 'Front-End Designer'],
             typeSpeed: 50,
         });
     </script>
